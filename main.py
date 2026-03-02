@@ -46,7 +46,7 @@ def main():
         eval_freq_episodes=config.EVAL_FREQ_EPISODES, 
         n_eval_episodes=config.N_EVAL_EPISODES, 
         verbose=1,
-        save_dir="results/models",
+        save_dir=f"results/models/{param_str}",
         param_str=param_str
     )
     

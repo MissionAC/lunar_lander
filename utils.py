@@ -62,7 +62,7 @@ class EpisodeLoggerCallback(BaseCallback):
                 # Logic to save the top 3 models
                 # If we have less than 3 models, or the current reward is better than the worst in our top 3
                 if len(self.best_models) < 3 or mean_reward > self.best_models[0][0]:
-                    model_filename = f"model_{self.param_str}_ep{self.episode_count}_rew{mean_reward:.2f}.zip"
+                    model_filename = f"model_ep{self.episode_count}_rew{mean_reward:.2f}.zip"
                     model_path = os.path.join(self.save_dir, model_filename)
                     
                     # Save the new top model
