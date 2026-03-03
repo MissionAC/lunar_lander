@@ -7,7 +7,7 @@ ENV_NAME = "LunarLander-v3"
 IS_CONTINUOUS = True
 
 # General Training Settings
-TOTAL_TIMESTEPS = 500000
+TOTAL_TIMESTEPS = 1000000
 SEED = 42
 
 # ------------------------------------------
