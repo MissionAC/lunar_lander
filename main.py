@@ -55,7 +55,7 @@ def main():
         "MlpPolicy", 
         train_env, 
         verbose=0,
-        device="auto",
+        device="cpu",
         seed=config.SEED,
         **ppo_params 
     )

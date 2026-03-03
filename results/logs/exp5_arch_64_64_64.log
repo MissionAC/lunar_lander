@@ -1,0 +1,92 @@
+--- Starting SB3 PPO Training on LunarLander-v3 ---
+Hyperparameters: lr0.0003_g0.99_gae0.95_clip0.2_arch64_64_64
+Training in progress. Please wait...
+/home/zhanghan/anaconda3/envs/script/lib/python3.12/site-packages/stable_baselines3/common/evaluation.py:70: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+Episode 20 | Eval Reward: -107.78
+--> Saved new top model: model_ep20_rew-107.78.zip
+/home/zhanghan/anaconda3/envs/script/lib/python3.12/site-packages/stable_baselines3/common/evaluation.py:70: UserWarning: Evaluation environment is not wrapped with a ``Monitor`` wrapper. This may result in reporting modified episode lengths and rewards, if other wrappers happen to modify these. Consider wrapping environment first with ``Monitor`` wrapper.
+  warnings.warn(
+Episode 40 | Eval Reward: -110.94
+--> Saved new top model: model_ep40_rew-110.94.zip
+Episode 60 | Eval Reward: -125.12
+--> Saved new top model: model_ep60_rew-125.12.zip
+Episode 80 | Eval Reward: -109.87
+--> Saved new top model: model_ep80_rew-109.87.zip
+--> Removed lower performing model: model_ep60_rew-125.12.zip
+Episode 100 | Eval Reward: -83.51
+--> Saved new top model: model_ep100_rew-83.51.zip
+--> Removed lower performing model: model_ep40_rew-110.94.zip
+Episode 120 | Eval Reward: -107.84
+--> Saved new top model: model_ep120_rew-107.84.zip
+--> Removed lower performing model: model_ep80_rew-109.87.zip
+Episode 140 | Eval Reward: -146.30
+Episode 160 | Eval Reward: -87.32
+--> Saved new top model: model_ep160_rew-87.32.zip
+--> Removed lower performing model: model_ep120_rew-107.84.zip
+Episode 180 | Eval Reward: -88.09
+--> Saved new top model: model_ep180_rew-88.09.zip
+--> Removed lower performing model: model_ep20_rew-107.78.zip
+Episode 200 | Eval Reward: -130.71
+Episode 220 | Eval Reward: 196.97
+--> Saved new top model: model_ep220_rew196.97.zip
+--> Removed lower performing model: model_ep180_rew-88.09.zip
+Episode 240 | Eval Reward: 242.68
+--> Saved new top model: model_ep240_rew242.68.zip
+--> Removed lower performing model: model_ep160_rew-87.32.zip
+Episode 260 | Eval Reward: 194.11
+--> Saved new top model: model_ep260_rew194.11.zip
+--> Removed lower performing model: model_ep100_rew-83.51.zip
+Episode 280 | Eval Reward: 181.19
+Episode 300 | Eval Reward: 180.17
+Episode 320 | Eval Reward: 177.46
+Episode 340 | Eval Reward: 201.60
+--> Saved new top model: model_ep340_rew201.60.zip
+--> Removed lower performing model: model_ep260_rew194.11.zip
+Episode 360 | Eval Reward: 199.40
+--> Saved new top model: model_ep360_rew199.40.zip
+--> Removed lower performing model: model_ep220_rew196.97.zip
+Episode 380 | Eval Reward: 189.39
+Episode 400 | Eval Reward: 146.31
+Episode 420 | Eval Reward: 138.64
+Episode 440 | Eval Reward: 140.34
+Episode 460 | Eval Reward: 155.05
+Episode 480 | Eval Reward: 204.29
+--> Saved new top model: model_ep480_rew204.29.zip
+--> Removed lower performing model: model_ep360_rew199.40.zip
+Episode 500 | Eval Reward: 125.91
+Episode 520 | Eval Reward: 108.46
+Episode 540 | Eval Reward: 202.56
+--> Saved new top model: model_ep540_rew202.56.zip
+--> Removed lower performing model: model_ep340_rew201.60.zip
+Episode 560 | Eval Reward: 173.24
+Episode 580 | Eval Reward: 118.01
+Episode 600 | Eval Reward: 179.56
+Episode 620 | Eval Reward: 158.20
+Episode 640 | Eval Reward: 188.00
+Episode 660 | Eval Reward: 162.66
+Episode 680 | Eval Reward: 146.68
+Episode 700 | Eval Reward: 139.59
+Episode 720 | Eval Reward: 220.36
+--> Saved new top model: model_ep720_rew220.36.zip
+--> Removed lower performing model: model_ep540_rew202.56.zip
+Episode 740 | Eval Reward: 204.93
+--> Saved new top model: model_ep740_rew204.93.zip
+--> Removed lower performing model: model_ep480_rew204.29.zip
+Episode 760 | Eval Reward: 244.15
+--> Saved new top model: model_ep760_rew244.15.zip
+--> Removed lower performing model: model_ep740_rew204.93.zip
+Episode 780 | Eval Reward: 170.06
+Episode 800 | Eval Reward: 219.88
+Episode 820 | Eval Reward: 229.54
+--> Saved new top model: model_ep820_rew229.54.zip
+--> Removed lower performing model: model_ep720_rew220.36.zip
+Episode 840 | Eval Reward: 225.52
+Episode 860 | Eval Reward: 190.07
+Episode 880 | Eval Reward: 173.84
+Episode 900 | Eval Reward: 213.86
+Episode 920 | Eval Reward: 152.88
+Episode 940 | Eval Reward: 170.27
+
+Plot successfully saved to results/plots/Performance_lr0.0003_g0.99_gae0.95_clip0.2_arch64_64_64.png
+--- Training Completed for lr0.0003_g0.99_gae0.95_clip0.2_arch64_64_64 ---

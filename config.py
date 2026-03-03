@@ -14,7 +14,7 @@ SEED = 42
 # Custom Network Architecture Setup
 # ------------------------------------------
 # [64, 64] means 2 hidden layers with 64 neurons each.
-NETWORK_ARCH = [128, 128] 
+NETWORK_ARCH = [64, 64] 
 
 # PPO Hyperparameters (For Question 1B Tuning)
 PPO_PARAMS = {
